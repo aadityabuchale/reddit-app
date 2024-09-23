@@ -1,0 +1,27 @@
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
+.homeAdsContainer{
+    max-width: 310px;
+    min-width: 310px;
+    padding: 20px 0;
+}
+ 
+@media (width < 750px) {
+    .homeAdsContainer{
+        display: none;
+    }
+}
+
+@media (width < 380px){
+    .main{
+        padding: 0;
+    }
+}

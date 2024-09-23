@@ -1,0 +1,276 @@
+.createpost{
+    width: 100%;
+    max-height: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 22px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.postinputDiv{
+    width: 100%;
+    min-height: 500px;
+    max-width: 750px;
+}
+
+.condition{
+    min-width: 312px;
+    max-width: 312px;
+    margin-top: 20px;
+}
+
+.conditionContainer{
+    width: 100%;
+    height: 265px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.termsC{
+    width: 80%;
+    padding: 15px 0;
+    font-size: 0.75rem;
+}
+
+.conditionTitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.conditionTitle img{
+    width: 25px;
+}
+
+.conditionContent{
+    padding: 0 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.title{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title p{
+    font-size: 1.25rem;
+    color: 1C1C1C;
+    font-weight: 500;
+}
+
+.draftCount{
+    height: 18px;
+    width: auto;
+    padding: 0 2px;
+    background-color: #888;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.chooseCommunity{
+    height: auto;
+    margin: 15px 0;
+}
+
+.communitybutton{
+    width: 300px;
+    height: 38px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.inputtext{
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.inputsearch{
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    border: 0;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.iconcommunity{
+    width: 15%;
+    font-size: 1.25rem;
+    color: #999; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.inputContainer{
+    width: 100%;
+    padding: 15px;
+}
+
+.inputsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.imageInput{
+    width: 100%;
+    min-height: 150px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.inputsDiv input{
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 1rem;
+    font-style: 500;
+    background-color: transparent;
+    border: 0;
+}
+
+.inputImage{
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px 5px;
+    background-color: #fff;
+    border: 5px solid #888;
+}
+
+.inputsDiv textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    border-radius: 5px;
+    padding: 2px 15px;
+    resize: vertical;
+    font-size: 1rem;
+    font-style: 500;
+    background-color: transparent;
+    border: 0;
+}
+
+.optionButtons{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.submitButtons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.PostTypeDiv{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.PostTypeDiv hr{
+    transform: rotate(90deg);
+    border: 0;
+    width: 225px;
+    border-top: 1px solid #eee;
+    margin: 0;
+}
+
+.PostType{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.PostType:nth-child(1){
+    border:  0;
+}
+
+.postAdConditions{
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.connections{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.AddPostContainer{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.createPostUserLogo{
+    width: 30px;
+}
+
+.hrtag{
+    width: 100%;
+    border: 0;
+    margin: 10px 0;
+}
+
+.lightFocus:focus{
+    outline: 1px solid black;
+}
+
+.darkFocus:focus{
+    outline: 1px solid white;
+}
+
+@media (max-width: 800px){
+    .condition{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .createpost{
+        padding: 0;
+    }
+    .PostType{
+        font-size: 0.875rem;
+    }
+    .communitybutton{
+        width: 100%;
+    }
+}

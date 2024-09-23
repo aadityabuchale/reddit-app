@@ -1,0 +1,146 @@
+.CreateChannel{
+    width: 100%;
+    max-width: 510px;
+    height: fit-content;
+    min-height: 525px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.createChannelHeader{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.CreateChannel hr{
+    border: 0;
+}
+
+.channelCondition p:nth-child(1){
+    font-weight: 500;
+}
+
+.channelCondition p:nth-child(2){
+    height: auto;
+    display:flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.channelNameInput div:nth-child(1){
+    width: 100%;
+    height: 40px;
+    margin: 15px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.channelNameInput div:nth-child(1) input{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.channelNameInput  div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.channelNameInput p:nth-child(3){
+    font-size: 0.75rem;
+    color: red;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.channelTypes{
+    margin: 10px 0;
+}
+
+.channelTypes p:nth-child(1){
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.channelTypes div{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.channelTypes div input{
+    transform: scale(1.3);
+    accent-color: #0079d3;
+}
+
+.channelTypes div p:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.channelTypes div p:nth-child(3){
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.channelDisclaimer{
+    position: absolute;
+    bottom: 64px;
+    padding: 20px 0;
+}
+
+.channelDisclaimer p:nth-child(1){
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.channelDisclaimer p:nth-child(2){
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.channelDisclaimer p:nth-child(2) input{
+    transform: scale(1.3);
+    cursor: pointer;
+    accent-color: #0079d3;
+}
+
+.channelactions{
+    width: 100%;
+    height: 64px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 0 5px 5px;
+}

@@ -1,0 +1,303 @@
+.postDetail{
+    width: 100%;
+    height: 100%;
+}
+
+.postBarNav{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 55px;
+    z-index: 7;
+    border-bottom: 1px solid #343536;
+}
+
+.postBarVoting{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #333;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 2px 5px;
+}
+
+.upVote, .downVote{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.upVote{
+    margin-top: 2px;
+}
+
+.upVote:hover{
+    color: #d93a00;
+}
+
+.downVote:hover{
+    color: #006cbf;
+}
+
+.postDetailClose{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.postDetails{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 0 25px;
+}
+
+.postMainDiv{
+    width: 100%;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.postTitle{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.postTitleVoting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 5px 5px 5px 10px;
+}
+
+.postTitleDiv{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.postTitleDiv img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.postTitleDiv p:nth-child(2){
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.postTitleDiv p:nth-child(2):hover{
+    text-decoration: underline;
+}
+
+.postTitleDiv p:nth-child(3){
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.postTitleDiv p:nth-child(3) span:hover{
+    text-decoration: underline;
+}
+
+.postContentDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 40px;
+}
+
+.postContent{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.postCommentCount p{
+    width: 140px;
+    height: 25px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.commentUpload{
+    padding: 0 40px;
+}
+
+.commentUpload p{
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.commentUpload a{
+    font-size: 0.9rem;
+    color: #006cbf;
+}
+
+.commentUpload a:hover{
+    text-decoration: underline;
+}
+
+.commentUpload textarea{
+    min-height: 150px;
+    min-width: 100%;
+    resize: vertical;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 7px 15px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    outline: 0;
+    background-color: transparent;
+}
+
+.commentUpload textarea:focus{
+    border: 1px solid #000;
+}
+
+.commentUpload div{
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.commentTitle{
+    padding: 10px 40px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.border{
+    margin: 0 40px;
+    width: calc(100% - 80px);
+}
+
+.commentsDiv{
+    padding: 10px;
+}
+
+/* Comments.js */
+
+.commentMain{
+    margin: 15px 0;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+.commentMain .commentUser{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    transition: all 2s ease-in-out;
+}
+
+.commentMain .commentUser img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.commentMain .commentUser a{
+    font-size: 0.8rem;
+}
+
+.commentMain .commentUser a:hover{
+    text-decoration: underline;
+}
+
+.commentMain .commentUser p{
+    font-size: 0.75rem;
+}
+
+.commentMain .commentDetails{
+    height: fit-content;
+    margin: 10px 15px;
+    position: relative;
+    left: 30px;
+}
+
+.commentMain .commentDetails hr{
+    position: absolute;
+    top: -15px;
+    bottom: -15px;
+    left: -30px;
+    width: 1px;
+    border-left: 3px solid #eee;
+    cursor: pointer;
+}
+
+.commentMain .commentDetails p{
+    width: 100%;
+    height: auto;
+    font-size: 0.9rem;
+    padding-right: 20%;
+}
+
+.commentMain .commentDetails hr:hover{
+    border-left: 3px solid #006cbf;
+}
+
+.expandComment{
+    color: #006cbf;
+    cursor: pointer;
+    height: 100%;
+}
+
+.changeComment{
+    resize: none;
+    padding: 5px;
+    font-size: 1rem;
+    outline: 0;
+    width: 90%;
+    background-color: transparent;
+}
+
+.channelAside{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 780px){
+    .channelAside{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .postDetails{
+        padding: 0 0;
+    }
+    .postContentDiv{
+        padding: 0 10px;
+    }
+    .commentUpload{
+        padding: 0 10px;
+    }
+}

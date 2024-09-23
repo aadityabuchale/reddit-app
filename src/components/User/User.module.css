@@ -1,0 +1,102 @@
+.User{
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.sortType{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 0;
+}
+
+.userContainer{
+    min-width: 310px;
+    max-width: 310px;
+    margin-top: 20px;
+}
+
+.user{
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 3px;
+    height: max-content;
+    padding-bottom: 10px;
+}
+
+.user > div:nth-child(1){
+    width: 100%;
+    height: 80px;
+    border-radius: 3px 3px 0 0;
+    background-color: #7cbae9;
+}
+
+.user > div:nth-child(2){
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user > div:nth-child(2) img{
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+}
+
+.user > div:nth-child(3) p:nth-child(1){
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.user > div:nth-child(3) p:nth-child(2){
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.channelmembers{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.members{
+    width: 50%;
+}
+
+.members p:nth-child(1){
+    font-size: 0.87rem;
+    font-weight: 500;
+}
+
+.members p:nth-child(2){
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+@media (max-width: 700px){
+    .User{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 400px){
+    .userContainer{
+        min-width: 100%;
+    }
+}

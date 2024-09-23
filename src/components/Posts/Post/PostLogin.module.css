@@ -1,0 +1,160 @@
+.postContainer{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.postContainer:hover{
+    border: 1px solid #666;
+}
+
+.postVoting{
+    border-radius: 3px 0 0 3px;
+}
+
+.postTitleVoting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+}
+
+.upVote, .downVote{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.upVote{
+    margin-top: 2px;
+}
+
+.upVote:hover{
+    color: #d93a00;
+}
+
+.downVote:hover{
+    color: #006cbf;
+}
+
+.postDetails{
+    border-radius: 0 3px 3px 0;
+    padding: 10px;
+}
+
+.posterdetails{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.posterdetails img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.channelname{
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.channelname:hover{
+    text-decoration: underline;
+}
+
+.authorname{
+    font-size: 0.75rem;
+}
+
+.authorname span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.createdTimestamp{
+    font-size: 0.75rem;
+}
+
+.postTitle{
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.postContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.postContent img{
+    width: calc(100% - 20px);
+    margin: 0 10px 10px 10px;
+}
+
+.postCommentCount{
+    display: flex;
+}
+
+.changePost{
+    resize: none;
+    padding: 5px;
+    font-size: 1rem;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+}
+
+.postCommentCount p{
+    width: auto;
+    height: 35px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 10px 10px 10px 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.sharePop{
+    width: 125px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0 15px;
+    font-weight: 500;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.sharePop:hover{
+    background-color: #efefef;
+}
+
+.darkHover:hover{
+    background-color: #1A1A1A;
+}
+
+.lightHover:hover{
+    background-color: #fff;
+}
+
+.lighteHover:hover{
+    background-color: #eee;
+}

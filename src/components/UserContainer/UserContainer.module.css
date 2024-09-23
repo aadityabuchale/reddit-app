@@ -1,0 +1,30 @@
+.UserContainer{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 57px 28px 0 0;
+    z-index: 9;
+    width: 255px;
+    max-height: 83vh;
+    overflow-y: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+.border{
+    margin: 12px 0;
+}
+
+.subtopicDiv{
+    margin: 0 5% 0 22%;
+}
+
+.copyright{
+    width: 100%;
+    display: block;
+    font-size: 0.85rem;
+    text-decoration: none;
+    position: relative;
+    bottom: 0;
+    padding: 10px 0 20px 20px;
+}

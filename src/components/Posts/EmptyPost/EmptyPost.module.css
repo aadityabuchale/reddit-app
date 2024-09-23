@@ -1,0 +1,35 @@
+
+.emptyPost{
+    width: 100%;
+    min-width: 100%;
+    max-width: 640px;
+    border-radius: 1px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    opacity: 0.5;
+}
+
+.emptyPost:hover{
+    border: 1px solid #888;
+}
+
+.votingDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+    font-size: 1.4rem;
+}
+
+.emptypostMessage{
+    width: calc(100% - 150px);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 460px;
+    z-index: 1;
+    margin: 0 75px;
+}

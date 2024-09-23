@@ -1,0 +1,143 @@
+.channelContainer{
+    height: fit-content;
+    max-width: 310px;
+    min-width: 310px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.channelTheme{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px 5px 0 0;
+    background-color: #7cbae9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.channelName{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.channelName img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.channelName p:hover{
+    text-decoration: underline;
+}
+
+.channeldescription{
+    padding: 5px 10px;
+}
+
+.channeldescription p:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.channeldescription p:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.channelBorder{
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+
+.channelmembers{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.members p:nth-child(1){
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.members p:nth-child(2){
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.online{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.addDescription{
+    margin: 5px 0;
+    padding: 7px;
+    font-size: 0.87rem;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #EEEEEE55;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.addDescription:hover{
+    border: 1px solid #006cbf;
+}
+
+.descriptionInputDiv{
+    margin: 5px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #006cbf;
+}
+
+.descriptionInput{
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.textareaControls{
+    width: 100%;
+    height: 10px;
+    font-size: 0.8rem;
+    display: flex;
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.textareaControls div{
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+}

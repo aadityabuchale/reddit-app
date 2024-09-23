@@ -1,0 +1,56 @@
+.Posts{
+    height: 100%;
+    padding: 22px 0;
+}
+
+hr{
+    max-width: 750px;
+    width: 100%;
+    border: 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+.buttons{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stylecard{
+    width: 125px;
+    height: auto;
+    border-radius: 10px;
+    background-color:#fff;
+    position: fixed;
+    z-index: 9;
+    box-shadow: 0 0 5px 0.2px rgba(0, 0, 0, 0.5);
+}
+
+.title{
+    padding: 13px 15px;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.stylecard div{
+    height: 48px;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 0.875rem;
+}
+
+.stylecard div:hover{
+    background-color: #eee;
+}
+
+.caughtMessage{
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+}

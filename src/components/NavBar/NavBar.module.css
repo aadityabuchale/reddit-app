@@ -1,0 +1,283 @@
+.navBar{
+    width: 100%;
+    height: 55px;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 7;
+}
+
+.hambermenu{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.navLogo{
+    height: 32px;
+    cursor: pointer;
+}
+
+.logoDiv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navFormDiv{
+    max-width: 600px;
+    width: 100%;
+    height: 42px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.search{
+    min-width: 30px;
+    font-size: 20px; 
+}
+
+.navForm{
+    width: 90%;
+    height: 100%;
+}
+
+.navForm input{
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    font-size: 0.875rem;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.cleartext{
+    font-size: 20px;
+    min-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.getApp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    min-width: 110px;
+    background-color: #eee;
+    padding: 0 15px;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.qrcode{
+    font-size: 17px;
+}
+
+.menu{
+    font-size: 1.25rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.menu:hover{
+    background-color: #eee;
+}
+
+.moreIcon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.userOptions{
+    padding: 0 7px;
+    width: fit-content;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.userOptions img{
+    height: 35px;
+}
+
+.userOptions div:nth-child(1){
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.onlineDot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #46d160;
+    position: relative;
+    top: -15px;
+    left: 25px;
+}
+
+.useInfoDiv{
+    width: 150px;
+    font-size: 0.8rem;
+}
+
+.userName{
+    font-weight: 500;
+    margin-bottom: 2.5px;
+}
+
+.karma{
+    color: #888;
+}
+
+.karmaLogo{
+    color: #D93A00;
+}
+
+.userOptions div:nth-child(3){
+    color: #888;
+}
+
+.navBarRoutes{
+    width: fit-content;
+    max-width: 250px;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    padding: 0 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.navBarRoutes img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.navBarRoutesLogo{
+    font-size: 1.5rem;
+}
+
+.navBarRoutes div:nth-child(1){
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.navBarRouteName{
+    height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 160px;
+}
+
+.navBarRoutes div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.openAside{
+    font-size: 1.25rem;
+}
+
+.darkHover:hover{
+    background-color: #272729;
+}
+
+.lightHover:hover{
+    background-color: #fff;
+}
+
+.lighteHover:hover{
+    background-color: #eee;
+}
+
+.darkBorderHover:hover{
+    border: 1px solid #474748
+}
+
+.lightBorderHover:hover{
+    border: 1px solid #eee
+}
+
+@media (max-width: 900px){
+    .navBarRouteName{
+        display: none;
+    }
+    .openAside{
+        display: none;
+    }
+    .useInfoDiv{
+        display: none;
+    }
+}
+
+@media (max-width: 650px){
+    .moreIconDiv{
+        display: none;
+    }
+    .loginbutton{
+        display: none;
+    }
+    .getApp{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .search{
+        display: none;
+    }
+    .cleartext{
+        display: none;
+    }
+}
+
+@media (max-width: 380px){
+    .navBarRoutes{
+        display: none;
+    }
+}
+
+@media (max-width: 200px){
+    .navFormDiv{
+        display: none;
+    }
+}

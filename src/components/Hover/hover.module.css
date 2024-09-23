@@ -1,0 +1,66 @@
+.channelHover{
+    width: 250px;
+    height: fit-content;
+    position: fixed;
+    z-index: 9;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.channelTitle{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.channelTitle img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.membersInfo{
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.membersInfo div{
+    width: 50%;
+}
+
+.membersInfo div p:nth-child(1){
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.membersInfo div p:nth-child(2){
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.channelInfo{
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.userLogo{
+    width: 100%;
+    text-align: center;
+}
+
+.userLogo img{
+    width: 50%;
+}
+
+.userLogo{
+    font-size: 1.2rem;
+    font-weight: 500;
+}

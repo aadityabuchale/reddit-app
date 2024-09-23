@@ -1,0 +1,58 @@
+.notification{
+    width: 375px;
+    height: 455px;
+    position: fixed;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr;
+    box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.5);
+    z-index: 9;
+}
+
+.notificationTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.notificationTitle div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    padding-right: 10px;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.notificationContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15%;
+    margin-top: 25px;
+}
+
+.notificationContent img{
+    height: 128px;
+    margin-bottom: 25px;
+}
+
+.notificationContent p:nth-child(2){
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.notificationContent p:nth-child(3){
+    font-size: 0.875rem;
+    font-weight: 500;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}

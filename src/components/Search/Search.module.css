@@ -1,0 +1,132 @@
+.searchPage{
+    width: 100%;
+    min-height: calc(100vh - 55px);
+    padding: 20px;
+}
+
+.searchPagContainer{
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.searchViewType{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.searchResultContainer{
+    width: 100%;
+    padding: 20px 0 0 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.SearchCommunity{
+    min-width: 275px;
+    max-width: 310px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.SearchCommunity > div:nth-child(1){
+    padding: 10px 5px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.SearchCommunity .channelUser:last-child{
+    border-radius: 0 0 5px 5px;
+}
+
+.channelUser{   
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.channelUser:hover{
+    background-color: #ddd;
+}
+
+.channeluserInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.channeluserInfo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.channeluserTitle{
+    height: 20px;
+    font-size: 0.9rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.channeluserCount{
+    font-size: 0.75rem;
+}
+
+.noSearchResults{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.noSearchResults img{
+    height: 100px;
+    margin: 5px 0;
+}
+
+.noSearchResults p:nth-child(2){
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.noSearchResults p:nth-child(3){
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.searchcommentTile{
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    align-self: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.searchcommentTile p{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+@media (max-width: 780px){
+    .SearhRightSide{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .searchPage{
+        padding: 20px 0;
+    }
+    .searchViewType{
+        padding: 0 20px;
+    }
+}
