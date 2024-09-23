@@ -14,7 +14,7 @@ The project aims to create a Reddit clone application using HTML, CSS, JavaScrip
 
 ## Deployment
 
-https://reddit-clone-jishnu.vercel.app/
+https://reddit-app-aaditya.vercel.app/
 
 ## Tech Stack
 
@@ -24,7 +24,7 @@ https://reddit-clone-jishnu.vercel.app/
 
 ## Authors
 
-- [@Jishnujsm](https://github.com/JishnuJsm)
+- [@AadityaBuchale](https://github.com/aadityabuchale)
 
 ## Roadmap
 
@@ -83,4 +83,3 @@ https://reddit-clone-jishnu.vercel.app/
 ### Reddit Premium
 ![Screenshot 2023-10-30 123029](https://github.com/JishnuJsm/Reddit-Clone---React-Project-2---2xrb7gmxn2kw/assets/85431819/f4ad407c-3feb-4a77-83aa-18e8e373000f)
 
-## Go to Page 👉 https://reddit-clone-jishnu.vercel.app
